@@ -14,12 +14,18 @@ module.exports = {
     return queryInterface.bulkInsert('categories', [
       {
         name: "Coffee",
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         name: "Manual Brew",
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         name: "Coffee Cup",
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
     ], {});
   },
