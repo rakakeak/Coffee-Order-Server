@@ -13,34 +13,58 @@ module.exports = {
     */
     return queryInterface.bulkInsert('menus', [
       {
-        categoryId: 4,
-        name: "Nasi Goreng Biasa",
-        image: "https://caramembuatmakanan123.files.wordpress.com/2015/03/nasi-goreng-kambing-jogja-istimewa.jpg",
-        price: 2000
+        categoryId: 1,
+        name: "Cappucino",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcgNlvo49ODHR2pHyTlwyaKe55cPctNCd3H7jtMrBDxvVvhqJU7Q",
+        price: 55000
       },
       {
-        categoryId: 4,
-        name: "Nasi Goreng Pedas",
-        image: "https://pergiyuk.com/blog/wp-content/uploads/2016/08/Nasi-Goreng-e1471790582459.jpg",
-        price: 25000
+        categoryId: 1,
+        name: "Coffee Latte",
+        image: "https://cdn-prod.medicalnewstoday.com/content/images/articles/297/297449/a-cup-of-coffee.jpg",
+        price: 65000
       },
       {
-        categoryId: 4,
-        name: "Mie Goreng Sambalado",
-        image: "https://cdn.idntimes.com/content-images/post/20171218/openrice-62a2451c4c897b7f53367007651525c2_600x400.jpg",
-        price: 12500
+        categoryId: 1,
+        name: "Espresso",
+        image: "https://miro.medium.com/max/1200/1*4FzJWow3qJOV_O-3iKgBOw.jpeg",
+        price: 40000
       },
       {
-        categoryId: 4,
-        name: "Mie Goreng Biasa",
-        image: "https://i2.wp.com/www.bisamasak.com/wp-content/uploads/2018/08/mie-goreng.jpg?fit=867%2C601&ssl=1",
-        price: 10000
+        categoryId: 1,
+        name: "Black Coffee",
+        image: "http://img.mysharing.co/htttp:/mysharing.co/wp-content/uploads//2017/12/black-coffee.jpg",
+        price: 38000
       },
       {
-        categoryId: 4,
-        name: "Mie Goreng Super",
-        image: "https://i2.wp.com/www.bisamasak.com/wp-content/uploads/2018/08/mie-goreng.jpg?fit=867%2C601&ssl=1",
-        price: 25000
+        categoryId: 2,
+        name: "Aero Press",
+        image: "https://mkfresh.pl/media/catalog/product/cache/1/small_image/9df78eab33525d08d6e5fb8d27136e95/m/k/mk_akcesoria_aeropress_1.jpg",
+        price: 35000
+      },
+      {
+        categoryId: 2,
+        name: "V60",
+        image: "https://www.acouplecooks.com/wp-content/uploads/2019/03/Coffee-Chemex-014.jpg",
+        price: 35000
+      },
+      {
+        categoryId: 3,
+        name: "Cup White",
+        image: "https://cdn.shopify.com/s/files/1/0788/5229/products/in_coffee_we_trust_take_away_cup_grande.jpg?v=1551815058",
+        price: 100000
+      },
+      {
+        categoryId: 3,
+        name: "Cup Black",
+        image: "https://images-na.ssl-images-amazon.com/images/I/61JtZH68lrL._SY355_.jpg",
+        price: 100000
+      },
+      {
+        categoryId: 3,
+        name: "Americano",
+        image: "https://www.craftcoffeeguru.com/wp-content/uploads/2019/02/americano-9.jpg?x53584",
+        price: 45000
       },
     ], {});
   },

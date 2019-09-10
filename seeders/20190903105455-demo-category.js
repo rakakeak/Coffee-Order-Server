@@ -19,14 +19,8 @@ module.exports = {
         name: "Manual Brew",
       },
       {
-        name: "Take Away",
+        name: "Coffee Cup",
       },
-      {
-        name: "Dessert",
-      },
-      {
-        name: "Beans",
-      }
     ], {});
   },
 
