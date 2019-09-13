@@ -12,7 +12,8 @@ exports.show = (req, res) => {
   }).then(data => res.send(data))
 }
 exports.store = (req, res) => {
-  Order.create(req.body).then(data => {
+  console.log(req.body)
+  Order.bulkCreate(req.body).then(data => {
     res.send({
       message: "success",
       data
